@@ -15,7 +15,7 @@
     $dosen_foto = $_SESSION["dosen_user_foto"];
     
     $tgl=date("d-m-Y");
-	$jumlah_dosen=mysqli_num_rows(mysqli_query($koneksi,"select * from dosen where status='Dosen'"));
+	$jumlah_dosen=mysqli_num_rows(mysqli_query($koneksi,"select * from admin where status='Dosen'"));
 	$jumlah_kelas=mysqli_num_rows(mysqli_query($koneksi,"select * from kelas"));
 	$jumlah_mahasiswa=mysqli_num_rows(mysqli_query($koneksi,"select * from mahasiswa"));
 	

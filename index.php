@@ -16,7 +16,7 @@
   $dosen_last_login = $_SESSION["dosen_user_last_login"];
  
   
-  $jumlah_matkul=mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM matkul WHERE id_dosen='$dosen_id'"));
+  $jumlah_matkul=mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM admin WHERE id_dosen='$dosen_id'"));
   $jumlah_kelas=mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM kelas WHERE id_dosen='$dosen_id'"));
 	$jumlah_siswa=mysqli_num_rows(mysqli_query($koneksi,"SELECT * FROM mahasiswa"));
 	

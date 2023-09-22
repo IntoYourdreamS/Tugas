@@ -25,7 +25,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Lihat Mata Kuliah | UNINDRA</title>
+  <title>Lihat Mata pelajaran | UNINDRA</title>
 
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -181,7 +181,7 @@
                   </thead>
                   <tbody align="center">
                     <?php
-                    $sql="SELECT * FROM matkul WHERE id_dosen='$dosen_id'";
+                    $sql="SELECT * FROM matapelajaran WHERE id_dosen='$dosen_id'";
                     $query=mysqli_query($koneksi,$sql);
                     $i = 1;
                     while ($data=mysqli_fetch_array($query)){
