@@ -49,7 +49,7 @@
         <div class="sidebar-brand-icon">
           <i class="fas fa-university"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">UNINDRA</div>
+        <div class="sidebar-brand-text mx-3">ABSENSI</div>
       </a>
 
       <!-- Divider -->
@@ -209,17 +209,6 @@
 
       </div>
       <!-- End of Main Content -->
-
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Bayu Tutor 2023</span>
-          </div>
-        </div>
-      </footer>
-      <!-- End of Footer -->
-
     </div>
     <!-- End of Content Wrapper -->
 

@@ -8,7 +8,7 @@
         $email = $_POST["email"];
         $password = $_POST["password"];
 
-       $result = mysqli_query($koneksi, "SELECT * FROM dosen WHERE email ='$email'");
+       $result = mysqli_query($koneksi, "SELECT * FROM admin WHERE email ='$email'");
 
        if( mysqli_num_rows($result) == 1 ) {
             while($row = mysqli_fetch_assoc($result)) {

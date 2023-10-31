@@ -30,7 +30,7 @@
   <meta name="description" content="">
   <meta name="author" content="">
 
-  <title>Lihat Mahasiswa | UNINDRA</title>
+  <title>Lihat Mahasiswa | ABSENSI</title>
 
   <link href="vendor/fontawesome-free/css/all.min.css" rel="stylesheet" type="text/css">
   <link href="https://fonts.googleapis.com/css?family=Nunito:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i" rel="stylesheet">
@@ -54,7 +54,7 @@
         <div class="sidebar-brand-icon">
           <i class="fas fa-university"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">UNINDRA</div>
+        <div class="sidebar-brand-text mx-3">ABSENSI</div>
       </a>
 
       <!-- Divider -->
@@ -167,12 +167,12 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-4 text-gray-800">Lihat Mahasiswa</h1>
+          <h1 class="h3 mb-4 text-gray-800">Lihat Siswa</h1>
 
             <!-- DataTales -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Daftar Mahasiswa </h6>
+              <h6 class="m-0 font-weight-bold text-primary">Daftar Siswa </h6>
             </div>
             <div class="card-body">             
               <div class="table-responsive">
@@ -226,16 +226,6 @@
 
       </div>
       <!-- End of Main Content -->
-
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Bayu Tutor 2023</span>
-          </div>
-        </div>
-      </footer>
-      <!-- End of Footer -->
 
     </div>
     <!-- End of Content Wrapper -->

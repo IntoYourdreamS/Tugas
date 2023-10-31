@@ -49,7 +49,7 @@
         <div class="sidebar-brand-icon">
           <i class="fas fa-university"></i>
         </div>
-        <div class="sidebar-brand-text mx-3">UNINDRA</div>
+        <div class="sidebar-brand-text mx-3">ABSENSI</div>
       </a>
 
       <!-- Divider -->
@@ -162,12 +162,12 @@
         <div class="container-fluid">
 
           <!-- Page Heading -->
-          <h1 class="h3 mb-4 text-gray-800">Lihat Mata Kuliah </h1>
+          <h1 class="h3 mb-4 text-gray-800">Lihat Mata Pelaaran </h1>
           <div class="col-md-7">
             <!-- DataTales -->
           <div class="card shadow mb-4">
             <div class="card-header py-3">
-              <h6 class="m-0 font-weight-bold text-primary">Daftar Mata Kuliah </h6>
+              <h6 class="m-0 font-weight-bold text-primary">Daftar Mata Pelajaran </h6>
             </div>
             <div class="card-body">             
               <div class="table-responsive">
@@ -209,16 +209,6 @@
 
       </div>
       <!-- End of Main Content -->
-
-      <!-- Footer -->
-      <footer class="sticky-footer bg-white">
-        <div class="container my-auto">
-          <div class="copyright text-center my-auto">
-            <span>Copyright &copy; Bayu Tutor 2023</span>
-          </div>
-        </div>
-      </footer>
-      <!-- End of Footer -->
 
     </div>
     <!-- End of Content Wrapper -->

@@ -10,4 +10,3 @@ if($sql_login=mysqli_query($koneksi, "UPDATE admin SET last_login=now()")){
     header("Location: login.php");
 }
 echo mysqli_error($koneksi);
-?>
